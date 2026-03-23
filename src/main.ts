@@ -18,8 +18,8 @@ async function bootstrap() {
     transform: true,
   }));
 
-  // Auth microservice runs on port 3001
-  const port = process.env.PORT || 3001;
+  // Auth microservice port
+  const port = process.env.PORT || 3000;
   await app.listen(port);
 
   console.log('Auth Microservice is running on: http://localhost:' + port);

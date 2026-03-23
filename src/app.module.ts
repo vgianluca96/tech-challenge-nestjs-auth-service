@@ -10,7 +10,7 @@ import { AuthModule } from './users/auth.module';
     ConfigModule.forRoot({
       isGlobal: true,
     }),
-    // MongoDB connection for the Gateway (for CRUD on users)
+    // MongoDB connection for CRUD on users
     MongooseModule.forRootAsync({
       imports: [ConfigModule],
       inject: [ConfigService],

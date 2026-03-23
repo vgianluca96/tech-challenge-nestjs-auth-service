@@ -1,6 +1,6 @@
 # Tech Challenge - User Management and Auth Microservice
 
-This is a backend application whose purpose is to manage user registration and authentication.
+This is a backend application whose purpose is to user management and authentication.
 
 ## Quick setup
 
@@ -24,6 +24,8 @@ JWT_SECRET=<put a secret key for JWT signature>
 
 
 ## Endpoints
+
+Swagger is available [here](./openapi.yaml)
 
 * POST /auth/register - Register a new user
 * POST /auth/login - Authenticate a user and return an access token (or equivalent)
